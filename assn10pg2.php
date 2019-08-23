@@ -1,8 +1,8 @@
 <?php
 echo "<tr><th> Choose a publisher name, click submit and the page will display the titles of the books that publisher has.</th></tr>";
 $host = "courses";
-$user = "z1624182";
-$password = "1992Jul15";
+$user = "";
+$password = "";
 $db = "henrybooks";
 
 $conn = new PDO("mysql:host=$host;dbname=$db", $user, $password);
